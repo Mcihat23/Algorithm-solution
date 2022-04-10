@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Algorithm Solution</h1>
+      <p>
+        A bunch of customers is waiting in a queue in front of the bank ATM.
+        They want to take all their money. However, the maximum amount per
+        transaction has been limited to 2000 USD.
+      </p>
+      <div>
+        <ul id="initialState"></ul>
+      </div>
+      <p>
+        The one who has taken all his money is going to leave the queue. The one
+        who wants to take the rest of the money has to go back at the end of the
+        queue.
+      </p>
+      <p>
+        Click the button to see the order in which customers leave the queue.
+      </p>
+      <div>
+        <button onclick="getFinalOrder()">Get Final Order</button>
+      </div>
+      <div>
+        <ol id="finalState"></ol>
+      </div>
+    </div>
+    <footer>
+      <small>
+        Developed by
+        <a href="https://github.com/Mcihat23" target="blank"
+          >Mustafa Cihat Aksoy</a
+        >
+      </small>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
